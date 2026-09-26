@@ -1,16 +1,4 @@
 [
-  {
-    "name": "UNINASSAU",
-    "description": "Atividade individual: comandos utilizados no Git e GitHub.",
-    "language": "GitHub",
-    "color": "#f6c177",
-    "href": "https://github.com/HigorADS/UNINASSAU"
-  },
-  {
-    "name": "higor-galhardo-portfolio",
-    "description": "Portfólio profissional de Higor Xavier Galhardo — estudante de ADS",
-    "language": "GitHub",
-    "color": "#f0883e",
-    "href": "https://github.com/HigorADS/higor-galhardo-portfolio"
-  }
+  {"name":"UNINASSAU","description":"Atividade prática com comandos essenciais de Git e GitHub, versionamento e documentação.","language":"Git / GitHub","color":"#f6c177","href":"https://github.com/HigorADS/UNINASSAU"},
+  {"name":"HigorADS","description":"Meu espaço de perfil para registrar evolução, estudos e projetos de desenvolvimento.","language":"Profile / README","color":"#f0883e","href":"https://github.com/HigorADS/HigorADS"}
 ]
