@@ -1,0 +1,26 @@
+name: Sync GitHub pinned projects
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio
+        uses: actions/checkout@v4
+      - name: Sync public pinned repositories
+        run: python3 .github/scripts/sync_pinned.py
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pinned.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'chore: sync GitHub pinned projects'
+          git push
