@@ -6,11 +6,11 @@
 
 <br />
 
-## [✦ VISITAR PORTFÓLIO ✦](https://higorads.github.io/higor-galhardo-portfolio/)
+## [✦ VISITAR PORTFÓLIO ✦](https://higorads.github.io/PORTFOLIO/)
 
 <br />
 
-`higorads.github.io/higor-galhardo-portfolio`
+`higorads.github.io/PORTFOLIO`
 
 <br />
 <br />
